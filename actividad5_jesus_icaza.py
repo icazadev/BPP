@@ -10,3 +10,10 @@ listas_numeros = [3, 4, 8, 5, 5, 22, 13]
 def getMaxNumbers(numLists: list) -> list:
     result = [max(listNums) for listNums in numLists]
     return result
+
+
+def getPrimeNumbers(num:int) -> bool:
+    if num % 2 != 0:
+        return True
+    return False
+
